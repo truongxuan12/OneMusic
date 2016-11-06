@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textEmotion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
+        android:gravity="center"
+        android:text="Bạn cảm thấy thế nào ?"
+        android:textSize="12pt"
+        android:textStyle="bold|italic" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textEmotion"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivHappy"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_happy" />
+
+        <ImageView
+            android:id="@+id/ivSad"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_sad" />
+
+        <ImageView
+            android:id="@+id/ivAngel"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_angel" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/skipEmotion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dip"
+            android:text="Skip"
+            android:textSize="7pt" />
+
+    </LinearLayout>
+
+</RelativeLayout>

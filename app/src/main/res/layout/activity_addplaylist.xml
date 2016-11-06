@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Thêm playlist"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            android:inputType="textCapWords" >
+        </EditText>
+
+        <Spinner
+            android:id="@+id/country_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp" />
+
+        <ImageView
+            android:id="@+id/country_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="90dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerInside" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp"
+            android:inputType="textCapWords">
+        </EditText>
+        <EditText
+            android:id="@+id/userid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp"
+            android:inputType="textCapWords">
+        </EditText>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ea4c88"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="Thêm" />
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ea4c88"
+            android:visibility="gone"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="Đăng Ký" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

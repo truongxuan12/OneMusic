@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">One Music</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_music_hot">Nhạc Hot</string>
+    <string name="nav_artist">Ca Sĩ</string>
+    <string name="nav_music_rank">Playlist</string>
+    <string name="nav_settings">Cài Đặt</string>
+    <string name="nav_about_us">Giới Thiệu</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Nhạc Hot</item>
+        <item>Ca Sĩ</item>
+        <item>Bảng Xếp Hạng</item>
+        <item>Cài Đặt</item>
+    </string-array>
+
+    <!-- Loại nhạc -->
+    <string name="activity_happy">Nhạc Vui</string>
+    <string name="activity_sad">Nhạc Buồn</string>
+    <string name="activity_angel">Lâng Lâng</string>
+
+    <string name="activity_title_about_us">Gới Thiệu</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="localmusic">Local Music</string>
+    <string name="facouritelmusic">Favourite Music</string>
+    <string name="Foldermusic">Folder Music</string>
+    <string name="login">Login</string>
+    <string name="nav_login">Đăng Nhập</string>
+
+    <string-array name="countries_list">
+        <item>Chon cam xúc nhac playlist</item>
+        <item>1 *****Nhạc Vui*****</item>
+        <item>2 *****Nhạc Buồn****</item>
+        <item>3 *****Nhạc Khác*****</item>
+    </string-array>
+
+    <integer-array name="countries_flag_list">
+        <item>@drawable/vui</item>
+        <item>@drawable/vui</item>
+        <item>@drawable/buon</item>
+        <item>@drawable/thich</item>
+    </integer-array>
+</resources>
